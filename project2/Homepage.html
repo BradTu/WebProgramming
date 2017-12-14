@@ -1,0 +1,83 @@
+<!-- Project 2 Made by Brad Tully 14 November 2017-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Recipe Site </title>
+  <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+
+  <div id="top">
+    <ul>
+      <li><a href="Scampi.html">Scampi</a></li>
+      <li><a href="Jambalaya.html">Jambalaya</a></li>
+      <li><a href="Burger.html">Burger</a></li>
+      <li><a href="BEC.html">B.E.C.</a></li>
+    </ul>
+  </div>
+
+  <article>
+    <div id="main">
+      <h1 class="head"> Brad's Recipe Blog </h1>
+      <header> Created by Brad Tully </header>
+      <br>
+      <img src="Cookware.jpg" alt="">
+      <h1> About This Website </h1>
+      <p>
+        This is a blog website that provides readers with delicious recipes.
+        It will give you the ingredients needed to make these dishes. It
+        will also give you directions on how to make the dishes. Some recipes
+        are provided by me and others are provided from other sources. In that
+        case they will be given proper credit.
+      </p>
+    <h3> Subscribe For More Recipes </h3>
+    <form action="/Here" method="post">
+      <fieldset>
+        <br><br>
+        <label for="useremail">User Email: </label>
+        <input type="email" id="useremail" name="useremail">
+        <br><br>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="user_name" placeholder="Jane Do">
+        <br><br>
+        <label for="agreement">Agree to terms: </label>
+        <input type="radio" id="agreement" name="agree">
+        <br><br>
+        <label for="todayDate">Today's Date:</label>
+        <input type="date" id="todayDate" name="theDate">
+        <br><br>
+        <label for="back"> Add Color To Your Icon (Hexadecimal i.e. '#7e2fa3' OR 'rgb(122, 37, 71)'</label>
+        <input type="text" name="back" id="back">
+        <button type="button" id="SubmitColor"> Color </button>
+        <br><br>
+        <label for="icon"> Add Text To Your Icon (First Line)</label>
+        <input type="text" name="icon" id="icon">
+        <button type="button" id="SubmitIcon"> Line One </button>
+        <br><br>
+        <label for="icon2"> Add Text To Your Icon (Second Line)</label>
+        <input type="text" name="icon2" id="icon2">
+        <button type="button" id="SubmitIcon2"> Line Two </button>
+        <br><br>
+        <canvas id="canvas" width="200" height="200" style="border:3px solid black;"></canvas>
+        <br><br>
+        <button type="submit">
+          Submit Form
+        </button>
+        <br/><br/>
+        <button type="reset">
+          Reset Form
+        </button>
+      </fieldset>
+
+      <br><br>
+    </form>
+    <footer>
+      University of Denver. Web Programming I. Project 2. Prof: Dan Pittman
+    </footer>
+  </div>
+
+  <script src="Homepage.js"></script>
+
+</body>
+</html>

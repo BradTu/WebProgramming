@@ -1,0 +1,82 @@
+<!-- Project 2 Made by Brad Tully 14 November 2017-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Recipe Site </title>
+  <link rel="stylesheet" href="Recipe.css">
+</head>
+<body>
+
+  <div id="top">
+    <ul id="navigation">
+      <li class="nav"><a href="Homepage.html">Home</a></li>
+      <li class="nav"><a href="Jambalaya.html">Jambalaya</a></li>
+      <li class="nav"><a href="Burger.html">Burger</a></li>
+      <li><a href="BEC.html">B.E.C.</a></li>
+    </ul>
+  </div>
+
+  <article>
+    <div id="main">
+      <h1> Brad's Recipe Blog </h1>
+      <header> Recipe provided by Brad Tully </header>
+      <br>
+      <h1> Shrimp Scampi </h1>
+      <img src="ScampiImages/Scampi.jpg" alt="A bowl of Shrimp Scampi" title="Scampi">
+      <br>
+      <h2> Description </h2>
+      <p>
+        Shrimp scampi is a simple dish that even people who don't like seafood will like.
+        It has minimal ingredients, but provides a strong amount of flavor. It is very easy
+        to make. Which means it is perfect for anyone.
+      </p>
+      <h2> Ingredients </h2>
+      <header>Press Image to Scroll Through The Ingredients</header>
+      <br>
+      <div class="Images">
+        <img src="ScampiImages/Butter.jpg" class="Ingredients" name="Ingredients">
+        <img src="ScampiImages/Garlic.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="ScampiImages/Pepper.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="ScampiImages/Rice.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="ScampiImages/Shrimp.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="Arrow.png" class="Ingredients" id="arrow">
+      </div>
+
+      <ol>
+        <li class="j"> Butter </li>
+        <li class="j"> Fresh Garlic </li>
+        <li class="j"> Pepper </li>
+        <li class="j"> Rice </li>
+        <li class="j"> Fresh Shrimp </li>
+      </ol>
+
+      <h2> Directions </h2>
+      <p>
+        Choose the amounts of ingredients to your own liking. It is pretty hard to mess up.
+        Start out by making the rice because it takes a while. After a few minutes throw
+        some butter into a pan and heat it up. Throw chopped up garlic into the pan.
+        Season with pepper. Once everything is done cooking throw it into a bowl and mix
+        it up spreading out the flavor into the rice and enjoy.
+      </p>
+    <br><br>
+    <fieldset>
+      <label for="comment"> Leave A Comment</label>
+      <input type="text" name="comment" id="comment">
+      <button type="button" id="SubmitButton"> Submit </button>
+    </fieldset>
+    <h3> Comment Section </h3>
+    <p id="CommentThread"> </p>
+    <br><br>
+    <footer>
+      Recipe By Brad Tully
+      <br>
+      University of Denver. Web Programming I. Project 2. Prof: Dan Pittman
+    </footer>
+  </div>
+</article>
+
+<script  src="Scampi.js"></script>
+
+</body>
+</html>

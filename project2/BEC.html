@@ -1,0 +1,80 @@
+<!-- Project 2 Made by Brad Tully 14 November 2017-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Recipe Site </title>
+  <link rel="stylesheet" href="Recipe.css">
+</head>
+<body>
+
+  <div id="top">
+    <ul id="navigation">
+      <li class="nav"><a href="Homepage.html">Home</a></li>
+      <li class="nav"><a href="Jambalaya.html">Jambalaya</a></li>
+      <li class="nav"><a href="Burger.html">Burger</a></li>
+      <li class="nav"><a href="Scampi.html">Scampi</a></li>
+    </ul>
+  </div>
+
+  <article>
+    <div id="main">
+      <h1> Brad's Recipe Blog </h1>
+      <header> Recipe provided by Brad Tully </header>
+      <br>
+      <h1> Bacon, Egg, and Cheese Sandwich </h1>
+      <img src="BECImages/BEC.jpg" alt="A bacon egg and chees sandwich" title="BEC">
+      <br>
+      <h2> Description </h2>
+      <p>
+        A bacon egg and cheese bagel sandwich is an absolute classic breakfast meal.
+        It takes a little bit of time to make, but it is completely worth it. This
+        is a great meal to make on a weekend morning any time of the year.
+      </p>
+      <h2> Ingredients </h2>
+      <header>Press Image to Scroll Through The Ingredients</header>
+      <br>
+      <div class="Images">
+        <img src="BECImages/Bacon.jpg" class="Ingredients" name="Ingredients">
+        <img src="BECImages/Bagel.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BECImages/Egg.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BECImages/Cheese.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="Arrow.png" class="Ingredients" id="arrow">
+      </div>
+
+      <ol>
+        <li class="j"> Bacon </li>
+        <li class="j"> Everything Bagel </li>
+        <li class="j"> Egg </li>
+        <li class="j"> Cheese </li>
+      </ol>
+
+      <h2> Directions </h2>
+      <p>
+        Start out cooking the bacon because it will take the longest of all the ingredients to
+        cook. Once it reaches a golden brown color take it out of the pan and put the slices
+        onto the everything bagel. Next cook up the egg overeasy in the pan leaving the bacon grease
+        inside of the pan. Once it is close to being done throw a slice of cheese onto it. Once it melts
+        take it off and put it on top of the bacon on the bagel and enjoy.
+      </p>
+    <br><br>
+    <fieldset>
+      <label for="comment"> Leave A Comment</label>
+      <input type="text" name="comment" id="comment">
+      <button type="button" id="SubmitButton"> Submit </button>
+    </fieldset>
+    <h3> Comment Section </h3>
+    <p id="CommentThread"> </p>
+    <br><br>
+    <footer>
+      Recipe By Brad Tully
+      <br>
+      University of Denver. Web Programming I. Project 2. Prof: Dan Pittman
+    </footer>
+  </div>
+</article>
+
+<script  src="BEC.js"></script>
+
+</body>
+</html>

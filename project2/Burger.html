@@ -1,0 +1,155 @@
+<!-- Project 2 Made by Brad Tully 14 November 2017-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Recipe Site </title>
+  <link rel="stylesheet" href="Recipe.css">
+</head>
+<body>
+
+  <div id="top">
+    <ul id="navigation">
+      <li class="nav"><a href="Homepage.html">Home</a></li>
+      <li class="nav"><a href="Jambalaya.html">Jambalaya</a></li>
+      <li class="nav"><a href="Scampi.html">Scampi</a></li>
+      <li><a href="BEC.html">B.E.C.</a></li>
+    </ul>
+  </div>
+
+  <article>
+    <div id="main">
+      <h1> Brad's Recipe Blog </h1>
+      <header> Recipe provided by Brad Tully </header>
+      <br>
+      <h1> Garlic Burger </h1>
+      <img src="BurgerImages/Burger.jpeg" alt="A Burger" title="Burger">
+      <br>
+      <h2> Description </h2>
+      <p>
+        The burger is an American classic dinner meal. I like to make a slight
+        variation on the burger that adds a little more flavor to it without
+        that much more. It's simple, add a little fresh garlic.
+      </p>
+      <h2> Ingredients </h2>
+      <header>Press Image to Scroll Through The Ingredients</header>
+      <br>
+      <div class="Images">
+        <img src="BurgerImages/GroundBeef.png" class="Ingredients" name="Ingredients">
+        <img src="BurgerImages/WorcestershireSauce.jpeg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/Garlic.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/Salt.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/Pepper.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/Parsley.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/SwissCheese.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/ParmesanCheese.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="BurgerImages/PretzelBun.jpg" class="Ingredients" name="Ingredients" style="display: none;">
+        <img src="Arrow.png" class="Ingredients" id="arrow">
+      </div>
+      <ol>
+        <li class="j"> ground beef </li>
+        <li class="j"> worcestershire sauce </li>
+        <li class="j"> fresh garlic cloves </li>
+        <li class="j"> salt </li>
+        <li class="j"> pepper </li>
+        <li class="j"> fresh parsley </li>
+        <li class="j"> swiss cheese </li>
+        <li class="j"> parmesan cheese </li>
+        <li class="j"> pretzel bun </li>
+      </ol>
+      <h2> Directions </h2>
+      <p>
+        These directions are based on a single burger. To use it for more multiply
+        all the amounts by how many burgers you are making. Take around 6 ounces
+        of ground beef. Add about half a chopped clove of garlic into the beef.
+        sprinkle some salt, pepper, chopped fresh parsley and shredded parmesan
+        cheese into the beef. Mix up the ingredients in the beef with your hands.
+        Flatten it into a patty. Cook on stovetop on low to medium heat until it is
+        medium, flipping as needed. Add a splash of worcestershire sauce to the pan.
+        Do NOT press down on the patty. Put a slice of swiss cheese on top. Once it
+        melts serve on a pretzel bun. Top with whatever you desire.
+      </p>
+      <br><br>
+      <h3> Fastfood Burger Facts </h3>
+      <br><br>
+      <table>
+        <tr>
+          <th colspan="1"></th>
+          <th colspan="1">Restaraunt</th>
+          <th colspan="4">Health Facts</th>
+        </tr>
+        <tr>
+          <th>  </th>
+          <th> Burger Joint </th>
+          <th> Calories </th>
+          <th> Fat (g) </th>
+          <th> Sodium (g) </th>
+          <th> Size (g) </th>
+        </tr>
+        <tr>
+          <th rowspan="3">Gross and Unhealthy</th>
+          <td> McDonald's </td>
+          <td> 750 </td>
+          <td> 43</td>
+          <td> 1280</td>
+          <td> N/A </td>
+        </tr>
+        <tr>
+          <td> Burger King </td>
+          <td> 1020</td>
+          <td> 65</td>
+          <td> 1090 </td>
+          <td> 417 </td>
+        </tr>
+        <tr>
+          <td> Wendy's</td>
+          <td> 1090 </td>
+          <td> 66 </td>
+          <td> 1990 </td>
+          <td> N/A </td>
+        </tr>
+        <tr>
+          <th rowspan="3">Unhealthy But Tasty</th>
+          <td> 5 Guys</td>
+          <td> 920</td>
+          <td> 62</td>
+          <td> 1310 </td>
+          <td> 317 </td>
+        </tr>
+        <tr>
+          <td> Dairy Queen</td>
+          <td> 1010</td>
+          <td> 71</td>
+          <td> 1670 </td>
+          <td> 321 </td>
+        </tr>
+        <tr>
+          <td> Sonic </td>
+          <td> 1240</td>
+          <td> 87</td>
+          <td> 1690 </td>
+          <td> 396 </td>
+        </tr>
+      </table>
+      <br>
+    <br><br>
+    <fieldset>
+      <label for="comment"> Leave A Comment</label>
+      <input type="text" name="comment" id="comment">
+      <button type="button" id="SubmitButton"> Submit </button>
+    </fieldset>
+    <h3> Comment Section </h3>
+    <p id="CommentThread"> </p>
+    <br><br>
+    <footer>
+      Recipe by Brad Tully
+      <br>
+      University of Denver. Web Programming I. Project 2. Prof: Dan Pittman
+    </footer>
+  </div>
+</article>
+
+<script src="Burger.js"></script>
+
+</body>
+</html>
